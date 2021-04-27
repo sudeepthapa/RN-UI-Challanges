@@ -16,6 +16,14 @@ const HomeScreen=({navigation})=>{
                 left={props => <List.Icon {...props} color={Colors.blue500} icon="login" />}
             />
 
+            <List.Item
+                title="Profile and Setting"
+                description=""
+                onPress={()=>navigation.navigate('Profile')}
+                left={props => <List.Icon {...props} color={Colors.blue500} icon="account-details" />}
+            />
+
+
 
 
 
