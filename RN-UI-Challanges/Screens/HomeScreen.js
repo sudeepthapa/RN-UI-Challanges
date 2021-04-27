@@ -4,6 +4,7 @@ import React from 'react';
 import {View,Text,StyleSheet,Button} from 'react-native';
 import { List,Colors  } from 'react-native-paper';
 
+
 const HomeScreen=({navigation})=>{
     return(
         <View style={styles.container}>
@@ -14,6 +15,10 @@ const HomeScreen=({navigation})=>{
                 onPress={()=>navigation.navigate('Login')}
                 left={props => <List.Icon {...props} color={Colors.blue500} icon="login" />}
             />
+
+
+
+
 
 
 
