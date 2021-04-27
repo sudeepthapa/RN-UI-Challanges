@@ -23,6 +23,14 @@ const HomeScreen=({navigation})=>{
                 left={props => <List.Icon {...props} color={Colors.blue500} icon="account-details" />}
             />
 
+            <List.Item
+                title="Product Detail Screen"
+                description=""
+                onPress={()=>navigation.navigate('Product')}
+                left={props => <List.Icon {...props} color={Colors.blue500} icon="card-text-outline" />}
+            />
+
+
 
 
 
